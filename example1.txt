@@ -1,0 +1,17 @@
+git init --to create the local repository
+
+git add origin <link> to add remote repository 
+Ex:git remote add origin "https://github.com/madhavoptum/git-madhav.git"
+
+git pull --> pull files from remote respository
+
+git push ---> push your own changes into central repo with git push
+
+git status---> Tells you which filese are added to index and ready to commit
+
+git add--->Lets you add files to your index.
+
+git commit -->it refers to recording snapshots of the repository at a given time.
+
+committed snapshots will never change unless done explicitly.
+
