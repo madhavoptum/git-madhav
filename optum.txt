@@ -1,0 +1,31 @@
+CVCS(CENTRAILIZED VERSION CONTROL SYSTEM):
+
+1. Centralized version control system (CVCS) uses a central server to store all files and enables team collaboration. 
+2. Unfortunately, if the central server goes down for an hour, then during that hour, no one can collaborate at all. 
+3. even in a worst case, if the disk of the central server gets corrupted and proper backup has not been taken, then you will lose the entire history of the project
+4. Here, distributed version control system (DVCS) comes into picture.
+
+DVCS(DISTRIBUTED VERSION CONTROL SYSTEM):
+
+1. DVCS clients not only check out the latest snapshot of the directory but they also fully mirror the repository.
+2. If the server goes down, then the repository from any client can be copied back to the server to restore it.
+3. Every checkout is a full backup of the repository. 
+4. You can commit changes, create branches, view logs, and perform other operations when you are offline
+5. You require network connection only to publish your changes and take the latest changes.
+
+Let us see the basic workflow of Git.
+
+Step 1 − You modify a file from the working directory.
+
+Step 2 − You add these files to the staging area.
+
+Step 3 − You perform commit operation that moves the files from the staging area. After push operation, it stores the changes permanently to the Git repository.
+
+Installation of Git Client:
+
+If you are using Debian base GNU/Linux distribution, then apt-get command will do the needful.
+[ubuntu ~]$ sudo apt-get install git-core
+[sudo] password for ubuntu:
+
+[ubuntu ~]$ git --version
+git version 1.8.1.2
